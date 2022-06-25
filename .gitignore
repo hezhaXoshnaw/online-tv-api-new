@@ -1,0 +1,8 @@
+vendor/
+.idea/
+change_list.txt
+channel_list/
+log/
+diagram
+old/
+isp/

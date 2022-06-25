@@ -1,0 +1,26 @@
+{
+    "name": "root/online_tv_api_old",
+    "authors": [
+        {
+            "name": "Hezha Xoshnaw",
+            "email": "hezha@istar-hd.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.0",
+        "geoip2/geoip2": "^2.9",
+        "rmccue/requests": "^1.7",
+      "ext-redis": "*"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Account\\"   : "src/Account/",
+            "Util\\"      : "src/Util/",
+            "Lib\\"       : "src/Lib/",
+            "CustomException\\" : "src/Exception/",
+            "Content\\"     : "src/Content/",
+            "Response\\"     : "src/Response/",
+            "Request\\" : "src/Request/"
+        }
+    }
+}
